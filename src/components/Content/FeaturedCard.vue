@@ -14,11 +14,11 @@
               ></g-image>
 
               <div class="featured-label absolute top-0 right-0 pr-10 pt-10 z-10">
-                <span
+                <!-- <span
                   class="p-1 relative block text-center text-xs leading-tight bg-white border border-gray-300 text-black rounded-full"
                 >
                   <font-awesome :icon="['fas', 'star']"></font-awesome>Featured
-                </span>
+                </span> -->
               </div>
 
               <div
@@ -35,21 +35,21 @@
                   <g-image
                     :src="edge.node.author[0].image"
                     :alt="edge.node.author[0].name"
-                    class="w-10 h-10 rounded-full bg-gray-200 border-2 border-white"
+                    class="w-10 h-10 rounded-full bg-gray-200 border-2 border-black"
                   />
                 </g-link>
               </div>
 
               <div class="post-card-content">
                 <p class="tracking-wide font-semibold mt-3">
-                  <g-link :to="edge.node.category.path">{{ edge.node.category.title }}</g-link>
+                  <g-link :to="edge.node.category.path" v-bind:style="{ color: activeColor }">{{ edge.node.category.title }}</g-link>
                 </p>
 
-                <h3 class="tracking-wider mt-3 mb-3 text-4xl max-w-xl">{{ edge.node.title }}</h3>
+                <h3 class="tracking-wider mt-3 mb-3 text-4xl max-w-xl" v-bind:style="{ color: activeColor }">{{ edge.node.title }}</h3>
               </div>
 
               <div class="post-card-footer">
-                <p>
+                <p v-bind:style="{ color: activeColor }">
                   <time :datetime="edge.node.datetime">{{ edge.node.humanTime }}</time>
                   &nbsp;&bull;&nbsp;
                   {{ edge.node.timeToRead }} min read
@@ -59,12 +59,12 @@
           </g-link>
         </div>
         <template #prevArrow>
-          <div class="w-16 h-16 mr-10 z-40">
+          <div class="w-10 h-10 mr-10 z-40" v-bind:style="{ color: activeColor }">
             <font-awesome :icon="['fas', 'arrow-left']" size="lg"></font-awesome>
           </div>
         </template>
         <template #nextArrow>
-          <div class="w-16 h-16 z-50">
+          <div class="w-10 h-10 z-50" v-bind:style="{ color: activeColor }">
             <font-awesome :icon="['fas', 'arrow-right']" size="lg"></font-awesome>
           </div>
         </template>
@@ -100,7 +100,11 @@ export default {
 
       return tooltipText.join("");
     }
-  }
+  },data() {
+return{
+  activeColor: 'black',
+}
+}
 };
 </script>
 

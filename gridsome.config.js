@@ -5,7 +5,7 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Gridsome',
+  siteName: 'babyApp',
   siteDescription: "An open-source framework to generate awesome pages",
   siteUrl: 'https://Wikanda-Ch.github.io',
   pathPrefix: '/Gridsome',

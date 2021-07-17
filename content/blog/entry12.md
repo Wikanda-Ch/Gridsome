@@ -1,67 +1,32 @@
 ---
-title: Illi litore
-tags: tag1, tag2
-category: Design
+title: What is BaBy App?
+tags: tag1
+category: Introduction
 excerpt: Anxius nec ibimus utque illa circa video est fuit labores alas. Vincere ferociaarva.
-created: 2019-12-24
-image: ./images/steven-wong-LcemoNqHIxY-unsplash.jpg
-image_caption: Photo by Steven Wong on Unsplash
+created: 2021-07-15
+image: ./images/12.png
+image2: ./images/12.png
+image3: ./images/menu.png
+image4: ./images/tracker.png
+image_caption: Photo by Wikanda
 author: author3
 featured: true
 ---
 
-## Animam arce aeternus venti successurumque nitidum
+## Baby App คืออะไร?
 
-Lorem markdownum artesque tu quidem lanigeris! Amari aliquis Ismarios,
-hospitiique nullum ab enim Pagasaea probabant armis iniuria inponi. Primus
-Aonius graves at inductas nec motu, qui pinetis. Anxius nec ibimus utque illa
-circa video est fuit labores alas. Huic per quantum undis, Themis et quamvis
-gramine missisque leonibus.
+เว็บแอปพลิเคชันที่ออกแบบสำหรับใช้งานบนสมาร์ทโฟนที่ช่วยในการติดตามพัฒนาการเด็กแรกเกิดจนถึง 3 ปี ซึ่งเป็นเว็บที่ใช้ในการติดตามพัฒนาการของลูก ซึ่งจะมีข้อมูลเกี่ยวกับการเลี้ยงดูลูกในหลายๆด้าน ช่วยติดตามการเปลี่ยนแปลงต่างๆของลูก ให้คำแนะนำ และเคล็ดลับต่างๆเกี่ยวกับคุณพ่อคุณแม่ รวมถึงวิธีการกระตุ้นพัฒนาการของลูก 
 
-> Meo locum plurimus laudatos exstantibus fistula nocte Ancaeo denique montanum.
-> Dissipat nullique tenax; aut una lacessit purpureus sumptis inlaesos,
-> Polypemonis quisque blanditus. Obscenas rumpitque numerum effluxere,
-> pronusque: Mygdonidesque precantia erat potes undis. Resurgere conplet velut
-> freta miram enim, maiorque nec nec inaniter mensura et ipse artus flebam
-> gentisque solus.
+## Feature หลักของ Baby App
 
-## Anguem et potitur sacrorum
+งานที่ได้รับมอบหมายจากทางบริษัทได้รับผิดชอบให้พัฒนาทั้งหมด 4 ฟีเจอร์ด้วยกัน ดังนี้
 
-Et Trachinia paelex strata signumque antris urbesque possem, nam nec inmissusque
-primo. Tergora fuit cum nubilibus quoque Troiae laboriferi vidit ponentem
-ferunt; has densa iactatis quem. Sonabunt in rubor. Summo at perfudit, est
-iugulum primum perque temperius si. Tamen notum cetera iuvabat fecit docebo
-citraque, structa spectans genus loca, sceleri in aequora pedum, si.
+1. ติดตามพัฒนาการ
+2. เพิ่มรูปภาพ
+3. อาหาร
+4. เช็คลิสต์
 
-1. Quotiens urbis Charaxi referre
-2. Terris acti iussit extrema
-3. Vel totis Iove locum forma
-4. Esse neve illi crimen ripis et crimina
+## Tracker ติดตามพัฒนาการ
 
-## Hecate sati agat quove temptant subito alii
-
-Fluentia arbore nivea meum: dantur cognosse abit vae armis non nec pectora dirae
-paludibus. Caecisque annos calathis monstratum buxi, a ad et manebat religatus
-at munus manebat in.
-
-Optare avibus hanc at atque factura velatus nec Amore inde praemia tectis, quam
-omnia meruisse tibi, virorum genitor. Figuris montis cum pendebant quondam
-verbis praecepta totiens, et caelo vultus. Factura ne invenit Hyperionis navita
-tempus Tellus in sacrum ferre, coniunx squamis fontibus in corpus ferarum
-aegram. Movet iram, huc arces qua, ieiunia, indicat placet equorum venit
-insequeris manentem arbor: sucos actis. Levibus notam.
-
-## Praestant vestigia undaeque radiis habenis
-
-Loqui sidera meas interea nequit finditque gaudetque furtis dum sanguine: quibus
-graviora adiecisse Broteasque gramen aegide tui vanum. Pulcherrime dividuae
-quidem.
-
-> Nec rapuere iuris, et monstris sinu autumnus Veneri faciemque haut ruunt usus
-> dixit dei veribus vernos. Aures rerum Latous retegente summoque non natus
-> operatus sol inmensi. Gener inde vestigia sed, fune solio vulnus depositum
-> Nereus, de que tendebat corporis inquit hac.
-
-Diversosque edidit: revolet aut temptabat piget voluistis: tamen quam illa
-patruo? Manus Psamathen mane, qui promisitque si corpus, terra inde, debebunt
-et, tempora minus laevo, et.
+เป็นหน้าที่แสดงข้อมูล ให้คำแนะนำ และติดตามพัฒนาการของลูกในแต่ละวัน เช่น น้ำหนักของลูกที่ควรจะเป็นในแต่ละวัน พัฒนาการของลูกอยู่ในระดับใด เป็นต้น 
+รวมถึงแสดงข้อมูลค่ามาตรฐานของลูก แสดงการเกิดพัฒนาการของลูกในแต่ละเดือน สามารถตั้งชื่อลูก วันเกิดลูก เพิ่มรูปโปรไฟล์ลูก เพิ่มข้อมูลลูก (ขนาด น้ำหนัก เส้นรอบศีรษะ) และสามารถนำข้อมูลมาพล็อตกราฟเพื่อบอกว่าลูกของคุณพ่อคุณแม่อยู่ในเกณฑ์ใด ซึ่งข้อมูลเหล่านี้จะสามารถบันทึกไว้ได้ทุกๆ 1 เดือน

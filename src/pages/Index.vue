@@ -1,9 +1,10 @@
+
 <template>
   <Layout>
       <content-header 
-        :title="$static.metadata.siteName" 
-        :sub="$static.metadata.siteDescription"
-        image="phoenix-han-Nqdh0G8rdCc-unsplash.jpg">
+        title="Baby App" 
+        sub="สำหรับคุณพ่อคุณแม่ยุคใหม่ ช่วยติดตามพัฒนาการของลูกน้อย"
+        image="bg.png">
       </content-header>
 
       <div class="container mx-auto">

@@ -13,21 +13,21 @@
                 class="block py-1"
                 :to="navItem.link"
                 :title="navItem.name"
-                v-if="navItem.external!=true && navItem.children.length <=0"
+                v-if="navItem.external!=true "
               >{{ navItem.name}}</g-link>
               <a
                 class="block"
                 :href="navItem.link"
                 target="_blank"
                 :title="navItem.name"
-                v-if="navItem.external==true && navItem.children.length <=0"
+                v-if="navItem.external==true "
               >{{ navItem.name}}</a>
-              <ClientOnly>
+              <!-- <ClientOnly>
               <v-popover 
                 placement="top" 
                 popoverClass="navbar-popover" 
                 offset="16" 
-                v-if="navItem.children.length > 0">
+                >
                 <a class="block py-1" style="cursor:pointer;">
                   {{ navItem.name }}
                   <font-awesome :icon="['fas', 'angle-down']"></font-awesome>
@@ -53,7 +53,7 @@
                   </ul>
                 </template>
               </v-popover>
-              </ClientOnly>
+              </ClientOnly> -->
             </li>
             <li class="px-4 py-1">
               <a role="button" 
@@ -161,11 +161,7 @@ query {
       name
       link
       external
-      children {
-        name
-        link
-        external
-      }
+      
     }
   }
 }
