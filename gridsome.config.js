@@ -7,8 +7,8 @@
 module.exports = {
   siteName: 'Gridsome',
   siteDescription: "An open-source framework to generate awesome pages",
-  siteUrl: 'https://<your-github-username>.github.io',
-  pathPrefix: '/<your-gridsome-repo-name>',
+  siteUrl: 'https://Wikanda-Ch.github.io',
+  pathPrefix: '/Gridsome',
   plugins: [
     {
       use: 'gridsome-plugin-tailwindcss',
